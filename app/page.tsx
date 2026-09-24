@@ -71,7 +71,7 @@ export default function Home() {
           ))}
         </ul>
 
-        {todos.length === 0 && <p className="text-center text-gray-400 mt-8">No tasks yet</p>}
+        {todos.length === 0 && <p className="text-center text-gray-400 mt-8">No tasks added yet</p>}
       </div>
     </div>
   );
